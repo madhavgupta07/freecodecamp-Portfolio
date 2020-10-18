@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.pro-img{
+	width: 400px;
+	margin: 1%;
+	box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+}
+nav{
+	padding: 30px;
+}
+li{
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+li:hover{
+	background: rgba(245, 171, 115, 0.5);
+}
+a{
+    text-decoration: none;
+}
+.project-tile{
+    margin-left: 15%;
+    margin-top: 100px;
+}
+.project-tile1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.project-tile2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.image{
+	margin-left: 10px;
+	padding-left: 30px;
+}
+#welcome-section{
+	width: 100%;
+	height: 100vh;
+	background: fixed;
+	background-color: #eb9859;
+	font-family: 'Chilanka', cursive;
+	font-size: 26px; 
+}
+#projects{
+	width: 100%;
+	height: 100vh;
+}
+#profile-link{
+	width: 100%;
+	height: 100vh;
+	background-color: orange;
+}
+.welcome-section-part h1 {
+	text-align: center;
+	margin-top:  300px;
+}
+
+.welcome-section-part p {
+	text-align: center;
+	margin-top:  10px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  margin-left: 50%;
+  display: inline-flex;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-github {
+  background-color: black;
+  color: white;
+  margin-top: 300px;
+  border-radius: 10px;
+}
+.fa-linkedin {
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+h3{
+	text-align: center;
+	font-family: 'Chilanka', cursive;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
